@@ -1,0 +1,2 @@
+sudo pkg update
+sudo pkg install gobject-introspection cairo webkit2-gtk3 libcanberra-gtk3
