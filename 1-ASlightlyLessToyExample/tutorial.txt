@@ -1,0 +1,35 @@
+    pip install briefcase
+=- bootstrap a new project
+    briefcase new
+# vai perguntar um momente de coisa
+
+depois entrar na pasta 
+cd helloworld
+    briefcase dev
+
+
+== criacao do seu scanffold (andaime)
+    briefcase create 
+fazer isso dentro da pasta exemplo: pasta hello world
+
+=== construindo a sua aplicacao
+briefcase build
+
+== constuindo o instalador
+briefcase package
+
+=== depois de atualizar app.py, deve fazer update
+briefcase update
+
+=== pode ser executado caso precisa de um update com dev e update 
+briefcase run -u
+
+=================================
+==== para celular android =======
+    briefcase create android
+
+==== quando dar algum erro apos a instalacao de uma biblioteca,
+==== deve usar:
+     briefcase build
+== deve se ter em pyproject.toml na requires o nome da biblioteca (ex: httpx)
+site com o error: https://docs.beeware.org/en/latest/tutorial/tutorial-7.html#updating-dependencies
